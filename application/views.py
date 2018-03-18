@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from sqlalchemy import create_engine
-from dabase.views import User, Base, Cook, Food
+from .SQLAlchemy_declear import User, Base, Cook, Food
 from sqlalchemy.orm import sessionmaker
 
 from . import app
